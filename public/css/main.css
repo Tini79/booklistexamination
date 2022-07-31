@@ -1,0 +1,10 @@
+button{border-color:#007bff;}
+.btn-primary{background-color:#007bff;color:#fff;}
+a{text-decoration:none;padding:2px;}
+table{border-collapse:collapse;}
+.border{border-style:solid;border-color:#000;width:100px;}
+.capitalized{text-transform:capitalize;}
+.mb-10{margin-bottom:10px;}.mt-30{margin-top:30px;}
+.center{display:flex;justify-content:center;}
+.inline-block{display:inline-block;}
+.grid-container{display:grid;grid-template-columns:100px 200px;}
