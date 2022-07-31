@@ -5,7 +5,7 @@
         <h3>Insert Rating</h3>
     </div>
     <div>
-        <form action="/booklist" method="post">
+        <form action="/" method="post">
             @csrf
             @error('author_id')
             <div>{{ $message }}</div>

@@ -15,5 +15,6 @@ use App\Http\Controllers\BookListController;
 |
 */
 
-Route::resource('/', DashboardController::class);
-Route::resource('/booklist', BookListController::class);
+Route::resource('/topfamousauthor', DashboardController::class);
+Route::get('/booklist/create', [BookListController::class, 'create']);
+Route::resource('/', BookListController::class);

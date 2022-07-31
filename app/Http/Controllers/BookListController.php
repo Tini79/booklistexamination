@@ -64,6 +64,6 @@ class BookListController extends Controller
 
         Rating::create($validatedData);
 
-        return redirect('/booklist');
+        return redirect('/');
     }
 }

@@ -3,7 +3,7 @@
 <section>
     <div>
         <div>
-            <form action="/booklist" method="get">
+            <form action="/" method="get">
                 <div class="mb-10">
                     <label>List Shown : </label>
                     <select name="numberOfRecord" id="">
